@@ -4,7 +4,7 @@ from pytz import timezone
 from crawling_yes24 import parsing_beautifulsoup, extract_book_data
 from github_utils import get_github_repo, upload_github_issue
 
-access_token = os.environ['MY_GITHUB_TOKEN']
+
 repository_name = "github-action-with-python"
 
 seoul_timezone = timezone('Asia/Seoul')
